@@ -346,6 +346,7 @@ class Divi_Accessibility_Public {
 	public function can_load_tota11y() {
 
 		$settings = $this->settings;
+	        $tota11y = false; // Set an initial value for $tota11y
 
 		if ( isset( $settings['tota11y'] ) ) {
 			$tota11y = $settings['tota11y'];
